@@ -1,4 +1,7 @@
 
+img{
+	width: 100%;
+}
 .inicio{
 	width: 5cm;
 	height: 5cm;
@@ -6,40 +9,64 @@
 	margin: 0;
 }
 .titulo{
-	margin-left: 5.2cm;
-    color: purple;
+	margin-left: 5.5cm;
+    color: black;
     font-size:20; 
 
 }
 .descripcion{
-	margin-left: 5.2cm;
-	color: blue;
+	color: #a1045a;
 	font-size: 25px;
+
+}
+.imagenes{
+	text-align: center;
+	margin-top: 2cm;
+
 }
 .img1{
 	width: 5cm;
-	height: 10cm;
-	margin-left: 5cm;
+	height: 9cm;
 }
+
 .img2{
 	width: 5cm;
-	height: 10cm;
-
+	height: 9cm;
 }
 .img3{
 	width: 5cm;
-	height: 10cm;
+	height: 9cm;
+
+}
+.img4{
+	width: 5cm;
+	height: 9cm;
+}
+
+.img6{
+	width: 5cm;
+	height: 9cm;
+
 }
 .btn{
-	color: red;
-	position: relative;
-	margin: 0.5%;
-	margin-left: 25%;
-	weight: 5cm;
-	height: 2cm;
+	color: #024a86;
+	background-color: #109dfa;
+	display: inline-flex;
+	height: 3cm;
+	width: 6.5cm;
+	font-size: 14px;
 	cursor: pointer;
-	
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 40px;
+	border: 2px solid black;
 }
 .btn :hover{
-	background-color: blue;
+	background-color:black;
+	color: red;
+	border: 3px solid red;
+}
+.center{
+	text-align: center;
 }
