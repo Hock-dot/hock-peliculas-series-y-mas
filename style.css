@@ -32,6 +32,7 @@
 }
 .btn{
 	color: red;
-	text-align: center;
-	
+	position: relative;
+	margin: 0.5%;
+	margin-left: 25%;
 }
